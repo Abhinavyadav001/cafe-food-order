@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=8, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {
+            height: 60px;
+            width: 60px;
+        }
+
+        .logo image {
+            width: 50px;
+            height: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: grey;
+        }
+
+        .right ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            font-family: 'Segoe UI';
+        }
+        .container
+        {
+            width:100vw;
+            height: 80vh;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 50px;
+        }
+        .right ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .search{
+            margin:5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="#" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li> <a href="#">Categories</a></li>
+                    <li><a href="#">Food</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="search">
+        <form>
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+</body>
+
+</html>
